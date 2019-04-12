@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+   box-sizing: border-box;
+   background-color:whitesmoke;
+   height: 1800px;
+}
+form{
+    /* background-color: aqua; */
+    margin-left: 450px;
+    margin-top: 200px;
+    
+}
+#form .username,.email,.password,.country{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+#form input{
+    margin-bottom: 6px;
+}
+.check{
+    margin-bottom: 8px;
+}
+button{
+    width:250px; 
+    height: 35px;
+    border-radius: 5px; 
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+   padding-right: 20px;
+}
+button i{
+    font-size: 27px; 
+    color: antiquewhite;
+   margin: 7px;
+   padding: 0%; 
+}
+span{
+    margin-left: 20px;
+}
+
+.img1{
+    width: 200px;
+    margin-top: 50px;
+   
+}
+.img-d{
+   text-align: center;
+}

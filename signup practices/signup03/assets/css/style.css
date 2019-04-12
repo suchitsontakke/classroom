@@ -1,0 +1,119 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+   box-sizing: border-box;
+   background-color:whitesmoke;
+   height:890px;
+
+}
+/* form margin set */
+form{
+    /* background-color: aqua; */
+    margin-left: 420px;
+    margin-right: 400px;
+    margin-top: 200px;
+  
+    
+}
+
+#form{
+    border: 10px solid;
+    padding: 15px;
+    padding-left: 35px;
+    border-color: white;
+   
+}
+
+.username{
+    margin-top: 20px;
+}
+/* input form setting */
+#form .username,.email,.password,.country{
+    width: 250px;
+    height: 25px;
+    /* border-radius: 5px; */
+    background-color: transparent;
+    border-color: white;
+    border-radius: 15px;
+    /* border-right: none; */
+    position: relative;
+
+}
+i{color: white;}
+#form{
+   background-image: url('../images/img10.jpg')
+ 
+}
+
+#envelop,#uname,#pass,#globe{
+    position: absolute;
+    right: 1150px;
+    
+}
+#envelop{top: 300px;}
+#uname{top: 250px;}
+#pass{top: 348px}
+#globe{top: 430px}
+/* form margin provided */
+#form .username,.email,.password,.country,.male,.female{
+    margin-bottom: 17px;
+    
+}
+
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+    margin-left: 10px;
+  }
+  span{
+      color: black;
+  }
+ 
+/* t&C margin */
+.check{
+   margin-left: 75px;
+   margin-bottom: 20px;
+}
+/* for email icon */
+/* #envelop,#uname,#pass,#globe{
+    padding-left: 5px;
+   padding-top: 5px; 
+    border-color: orangered;
+     
+} */
+ /* for button property */
+button{
+    width:250px; 
+    height: 35px;
+    border-radius: 5px; 
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+   padding-right: 20px;
+   margin-bottom: 10px;
+}
+/* lock icon inside button */
+button i{
+    font-size: 27px; 
+    color: antiquewhite;
+   margin: 7px;
+   padding: 0%; 
+}
+
+.inputwrapper{position: relative;}
+.inputwrapper>i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
